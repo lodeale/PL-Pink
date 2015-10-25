@@ -1,0 +1,12 @@
+Changes
+lib/PL/Pink.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+MYMETA.json
+MYMETA.yml
+README
+scripts/pink
+scripts/pink.pl
+scripts/test01.pink
+t/PL-Pink.t

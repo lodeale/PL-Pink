@@ -14,10 +14,6 @@ our %EXPORT_TAGS = ( 'all' => [ qw(
 
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
-our @EXPORT = qw(
-	
-);
-
 our $VERSION = '0.01';     # Variable que define la versión del módulo
 
 our %symbol_table;         # La tabla de símbolos $symbol_table{x} contiene
@@ -51,7 +47,7 @@ sub transform {
 }
 
 
-package PL::Tutu;
+package PL::Pink;
 sub compile {
   my ($input) = @_; # Observe el contexto!
   local %symbol_table = (); 
